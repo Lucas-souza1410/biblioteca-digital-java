@@ -1,0 +1,1 @@
+public class Bibliotecario extends Usuario{public Bibliotecario(String nome,int id,String senha){super(nome,id,senha);} public void emprestar(Acervo item){System.out.println("Bibliotecário não realiza empréstimos.");} public void cadastrarItem(Acervo item){System.out.println("Item cadastrado: "+item.getTitulo());}}

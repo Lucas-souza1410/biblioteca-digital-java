@@ -1,0 +1,1 @@
+public class DVD extends Acervo{private int duracao; public DVD(int codigo,String titulo,int duracao){super(codigo,titulo);this.duracao=duracao;} public String info(){return "DVD: "+titulo+", Duração: "+duracao+" min";}}

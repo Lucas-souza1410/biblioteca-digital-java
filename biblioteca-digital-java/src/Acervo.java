@@ -1,0 +1,1 @@
+public abstract class Acervo{protected int codigo; protected String titulo; public Acervo(int codigo,String titulo){this.codigo=codigo;this.titulo=titulo;} public String getTitulo(){return titulo;} public abstract String info();}

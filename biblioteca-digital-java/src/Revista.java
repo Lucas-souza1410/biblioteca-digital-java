@@ -1,0 +1,1 @@
+public class Revista extends Acervo{private int edicao; private String mes; public Revista(int codigo,String titulo,int edicao,String mes){super(codigo,titulo);this.edicao=edicao;this.mes=mes;} public String info(){return "Revista: "+titulo+", Edição: "+edicao+", Mês: "+mes;}}

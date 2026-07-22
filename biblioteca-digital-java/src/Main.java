@@ -1,0 +1,1 @@
+public class Main{public static void main(String[] args){Leitor leitor=new Leitor("João",1,"senha123"); Livro livro=new Livro(101,"Java Básico","Autor X",300); Revista revista=new Revista(102,"TechHoje",5,"Maio"); DVD dvd=new DVD(103,"Documentário",90); leitor.emprestar(livro); leitor.emprestar(revista); leitor.emprestar(dvd); leitor.devolver(livro);}}

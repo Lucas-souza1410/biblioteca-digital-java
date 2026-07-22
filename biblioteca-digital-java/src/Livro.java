@@ -1,0 +1,1 @@
+public class Livro extends Acervo{private String autor; private int paginas; public Livro(int codigo,String titulo,String autor,int paginas){super(codigo,titulo);this.autor=autor;this.paginas=paginas;} public String info(){return "Livro: "+titulo+", Autor: "+autor+", Páginas: "+paginas;}}
